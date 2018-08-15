@@ -1,0 +1,3 @@
+rootProject.name = 'radioinputex1'
+
+include ':app'
