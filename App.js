@@ -18,11 +18,13 @@ const instructions = Platform.select({
 });
 
 type Props = {};
+
+export default class App extends Component<Props> {
 getChecked = (value) => {
     // value = our checked value
     alert(value)
   }
-export default class App extends Component<Props> {
+  
   render() {
     return (
       <View style={styles.container}>
